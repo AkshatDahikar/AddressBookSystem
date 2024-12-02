@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Address {
 public static void main(String[] args) {
-	System.out.println("Welcome to Address Book Program in AddressBookMain class on Master Branch");
+	System.out.println("Welcome to Address Book Program in AddressBookMain class on Master Branch.");
 	Scanner scanner = new Scanner(System.in);
 
 	System.out.print("Enter First Name: ");
@@ -16,10 +16,10 @@ public static void main(String[] args) {
 	System.out.print("Enter Address: ");
 	String address = scanner.nextLine();
 
-	System.out.print("Enter City: ");
+	System.out.print("Enter City : ");
 	String city = scanner.nextLine();
 
-	System.out.print("Enter State: ");
+	System.out.print("Enter State : ");
 	String state = scanner.nextLine();
 	System.out.print("Enter ZIP: ");
 	String zip = scanner.nextLine();
